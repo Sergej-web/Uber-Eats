@@ -1,0 +1,213 @@
+body {
+    margin: 0 auto;
+}
+.main {
+    width: 1124px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 85px;
+    padding-right: 85px;
+}
+header {
+    height: 72px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sign {
+    width: 78px;
+    height: 40px;
+    border: 1px solid #E0E0E0;
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 24px;
+    text-align: center;
+    color: #1D1D1D;
+}
+.search {
+    padding-top: 60px;
+    padding-bottom: 20px;
+    background-color: #FFFFFF;
+    height: 48px;
+    display: flex;
+}
+.search_text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #626262;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+.main_title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    color: #1D1D1D;    
+}
+.cards {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 80px;
+}
+.card {
+    padding-bottom: 15px;
+    padding-right: 15px;
+}
+.card_title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #1D1D1D;
+}
+.card_text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #626262;
+}
+footer {
+    background-color: #262626;
+    height: 552px;
+}
+.footer_logo {
+    padding-top: 55px;
+    padding-bottom: 40px;
+}
+.info {
+    display: flex;
+    align-items: center;
+}
+.language {
+    margin-right: 100px;
+    width: 227px;
+    height: 40px;
+    background: #3B3B3B;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.language_title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+}
+.info_text {
+    padding-right: 150px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+}
+.social {
+    padding-bottom: 55px;
+    width: 92px;
+    height: 60px;
+}
+.social_title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+}
+.line {
+    border: 1px solid #979797;
+}
+.download {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer_text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+}
+.button {
+    background: #59BD5A;
+    border-radius: 2px;
+    width: 80px;
+    height: 80px;
+}
+
+
+/* Mobile */
+@media screen and (max-width: 450px) {
+    .cards {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 1px;
+    }
+    .info {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-bottom: 10px;
+    }
+    footer {
+        height: 750px;
+    }
+    .download {
+        height: 10px;
+    }
+    .footer {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .footer_text {
+        width: 200px;
+    }
+}
